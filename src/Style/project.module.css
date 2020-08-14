@@ -1,0 +1,72 @@
+@media only screen and (max-width: 904px){
+    .projectContainer{
+        width: 100%;
+    }
+    .projectTitle{
+        margin-top: 10px;
+    }
+}
+@media only screen and (min-width:905px){
+    .projectContainer{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        overflow-x:scroll ;
+        align-items: center;
+    }
+}
+
+.projectTitle{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Source Code Pro', monospace;
+}
+#icon{
+    margin-right: 5px;
+}
+
+
+/*this is for image component*/
+.projectContent{
+    display: flex;
+    margin-bottom: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+.projectName{
+    position: absolute;
+    font-size: 8px;
+    font-family: 'Source Code Pro', monospace;
+    z-index: 1;
+    transform: rotate(-90deg);
+    left:1%;
+    top: 17%;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.projectImage{
+    box-sizing: border-box;
+    width: 80%;
+    border: 0.5px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
