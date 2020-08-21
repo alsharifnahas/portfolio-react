@@ -49,7 +49,7 @@ export class Images extends Component {
                     <div className={styles.projectName}>
                         <i className="fa fa-angle-double-right"></i> {project.projectName}
                     </div>
-                    <img className={styles.projectImage} src={project.projectHtImage}
+                    <img alt="project" className={styles.projectImage} src={project.projectHtImage}
                         onMouseOver={(e) => {
 
                             e.target.style.cursor = 'pointer';

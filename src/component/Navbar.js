@@ -48,9 +48,9 @@ export class Navbar extends Component {
                     </div>
                 </div>
                 <div className={styles.socialMediaContainer}>
-                    <a href="https://www.linkedin.com/in/alsharif-eid-nahas-628818196/"
+                    <a rel="noopener noreferrer" href="https://www.linkedin.com/in/alsharif-eid-nahas-628818196/"
                         className={styles.socialLinks} target="_blank">LinkedIn</a>
-                    <a href="https://github.com/alsharifnahas" className={styles.socialLinks} target="_blank">Github</a>
+                    <a rel="noopener noreferrer" href="https://github.com/alsharifnahas" className={styles.socialLinks} target="_blank">Github</a>
                 </div>
             </div>
 
