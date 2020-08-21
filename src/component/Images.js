@@ -3,7 +3,7 @@ import {
     hospitalProject, radwaProject, recipeProject, eplProject,
     hospitalHT, eplHT, radwaHT, recipeHT
 } from '../Images/index';
-import styles from '../Style/project.module.css'
+import styles from '../Style/project.module.css';
 export class Images extends Component {
 
     render() {
@@ -14,29 +14,29 @@ export class Images extends Component {
                 projectImage: recipeProject,
                 projectHtImage: recipeHT,
                 projectName: 'Recipe Web Application',
-                projectLink: "https://y92ml.csb.app/",
-                projectGit: "https://github.com/alsharifnahas/recipesapp"
+                projectLink: "https://codesandbox.io/s/inspiring-bassi-4ws2h",
+
             },
             {
                 projectImage: eplProject,
                 projectHtImage: eplHT,
                 projectName: 'EPL Soccer Application',
-                projectLink: "https://kglc9.csb.app/",
-                projectGit: "https://github.com/alsharifnahas/EPL"
+                projectLink: "https://codesandbox.io/s/reverent-maxwell-hluqy",
+
             },
             {
                 projectImage: hospitalProject,
                 projectHtImage: hospitalHT,
                 projectName: 'Hospital Management',
                 projectLink: "",
-                projectGit: "https://github.com/alsharifnahas/Hospital_Management"
+
             },
             {
                 projectImage: radwaProject,
                 projectHtImage: radwaHT,
                 projectName: 'Radwa Company Website',
-                projectLink: "",
-                projectGit: ""
+                projectLink: "http://radwachickens.com/test/",
+
             }
 
 
@@ -51,7 +51,7 @@ export class Images extends Component {
                     </div>
                     <img className={styles.projectImage} src={project.projectHtImage}
                         onMouseOver={(e) => {
-                            e.target.style.transition = '1s';
+
                             e.target.style.cursor = 'pointer';
                             e.target.src = project.projectImage;
                         }}
@@ -62,6 +62,7 @@ export class Images extends Component {
                         }}
                         onClick={() => { window.open(project.projectLink) }}
                     />
+
                 </div>
             ))
 

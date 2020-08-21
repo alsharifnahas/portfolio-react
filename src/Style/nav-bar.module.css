@@ -1,70 +1,107 @@
-@media only screen and (max-width: 904px){
+@media only screen and (max-width: 955px){
+    *{
+        font-weight: bold;
+    }
     .sideContainer{
         width: 100%;
         background-color:rgba(243, 243, 243, 0.822);
         box-shadow: 0px -1px 5px 1px rgb(143, 143, 143) ;
         }
-        .logoContainer{
+        .nameContainer{
             width: 100%;
             display: flex;
-            justify-content: center;
             height: auto;
+            font-family: 'Source Code Pro', monospace;
+            margin-bottom: 5px;
+            font-size: 20px;
         }
-        .logo{
-            width: 15%;
+        .name{
+            width: 100%;
+            text-align: center;
+        }
+        #icon{
+            margin-right:5px ;
         }
         .aboutContainer{
-            width: 100%;
+            width: auto;
             display: flex;
             flex-direction: column;
-            text-align: center;
+            justify-content: flex-start;
             height: auto;
-            font-size: 10px;
-        }
-        .aboutWord{
-            font-weight: bold;
-            font-size: 15px;
-            width: 100%;
-            border-bottom: solid;
-            border-width: 0.5px;
-            margin-bottom: 5px;
+            font-size: 8px;
+            margin-bottom: 20px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            text-align: center;
         }
         .contactContainer{
+            margin-bottom: 20px;
             display: flex;
             flex-direction: column;
+            align-items: center;
             width: 100%;
-            justify-content: flex-end;
+            height: auto;
             text-align: center;
+            
         }
         .contactTitleContainer{
-            font-size: 15px;
-            font-weight: bold;
+            font-family: 'Source Code Pro', monospace;
+            font-size: 8px;
             width: 100%;
-            border-bottom: solid;
-            border-width: 0.5px;
             margin-bottom: 5px;
+            
         }
         .contactInformationContainer{
-            margin-bottom: 5px;
-            font-size: 10px;
+            font-size: 8px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            
         }
+
+
         
-        .socialMediaContianer{
-            width: 100%;
-        }
-        .socialMediaTitle{
-            font-weight: bold;
-            border-bottom: solid;
-            border-width: 0.5px;
-            margin-bottom: 5px;
-            font-size: 15px;
-        }
-        .socialLinks{
-            font-size: 10px;
-            margin-right: 10px;
-            text-decoration: none;
-            color: black;
-        }
+      .resumeContainer{
+        font-family: 'Source Code Pro', monospace;
+        margin-bottom: 20px;
+        font-size: 8px;
+        width: 100%;
+        text-align: center;
+    }
+    .skillsContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .skillsChildContainer{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+    .skillsTitle{
+        font-family: 'Source Code Pro', monospace;
+        font-size: 8px;
+        margin-bottom: 5px;
+    }
+    .skill{
+        font-size: 8px;
+        font-family: 'Lato', sans-serif;
+    }   
+   .socialMediaContainer{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: flex-end;
+        
+    }
+    .socialLinks{
+        text-decoration: none;
+        color: black;
+        font-size: 8px;
+        font-family: 'Lato', sans-serif;
+        padding:10px ;
+    }
 
 }
 
@@ -73,7 +110,7 @@
 
 
 
-@media only screen and (min-width:905px){
+@media only screen and (min-width:956px){
     .sideContainer{
         background-color:rgba(243, 243, 243, 0.822);
         height: 100%;
@@ -121,7 +158,6 @@
         flex-direction: column;
         width: auto;
         height: auto;
-        font-size: 10px;
     }
     .contactTitleContainer{
         font-family: 'Source Code Pro', monospace;

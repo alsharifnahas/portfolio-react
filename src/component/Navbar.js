@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styles from '../Style/nav-bar.module.css';
-import resume from '../Images/ed-williams-resume.pdf'
+import resume from '../assets/files/Alsharif-Eid-Nahas_Resume.pdf'
 export class Navbar extends Component {
     render() {
         return (
@@ -29,7 +29,7 @@ export class Navbar extends Component {
                 </div>
 
                 <div className={styles.resumeContainer}>
-                    <span onClick={() => { window.open(resume) }}><i id={styles.icon} className="fa fa-angle-double-right"></i>RESUME</span>
+                    <span onMouseOver={(e) => { e.target.style.cursor = "pointer" }} onClick={() => { window.open(resume) }}><i id={styles.icon} className="fa fa-angle-double-right"></i>RESUME</span>
                 </div>
                 <div className={styles.skillsContainer}>
                     <div className={styles.skillsChildContainer}>
@@ -48,7 +48,6 @@ export class Navbar extends Component {
                     </div>
                 </div>
                 <div className={styles.socialMediaContainer}>
-                    <a href="https://www.instagram.com/eidnahas" className={styles.socialLinks} target="_blank"> Instagram</a>
                     <a href="https://www.linkedin.com/in/alsharif-eid-nahas-628818196/"
                         className={styles.socialLinks} target="_blank">LinkedIn</a>
                     <a href="https://github.com/alsharifnahas" className={styles.socialLinks} target="_blank">Github</a>
