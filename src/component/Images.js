@@ -11,6 +11,7 @@ export class Images extends Component {
 
         const projects = [
             {
+
                 projectImage: recipeProject,
                 projectHtImage: recipeHT,
                 projectName: 'Recipe Web Application',
@@ -18,6 +19,7 @@ export class Images extends Component {
 
             },
             {
+
                 projectImage: eplProject,
                 projectHtImage: eplHT,
                 projectName: 'EPL Soccer Application',
@@ -25,6 +27,7 @@ export class Images extends Component {
 
             },
             {
+
                 projectImage: hospitalProject,
                 projectHtImage: hospitalHT,
                 projectName: 'Hospital Management',
@@ -32,6 +35,7 @@ export class Images extends Component {
 
             },
             {
+
                 projectImage: radwaProject,
                 projectHtImage: radwaHT,
                 projectName: 'Radwa Company Website',
