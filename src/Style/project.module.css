@@ -1,5 +1,5 @@
 /*Small screen*/
-@media only screen and (max-width: 955px){
+@media  (max-width: 955px){
     .projectContainer{
         width: 100%;
         display: flex;
@@ -47,7 +47,7 @@
 
 
 /*bigger screen screen*/
-@media only screen and (min-width:956px){
+@media (min-width:956px){
     .projectContainer{
         width: 60%;
         display: flex;
@@ -102,7 +102,7 @@
 
 
 /*responsive for the fonts*/
-@media only screen and (max-width:1250px){
+@media   (max-width:1250px){
     .projectName{
         font-size: 5.5px;
     }
@@ -111,7 +111,7 @@
      }
 
 }
-@media only screen and (min-width: 1251px){
+@media   (min-width: 1251px){
     .projectName{
         font-size: 8px;
     }
