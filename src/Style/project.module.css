@@ -126,10 +126,9 @@
     margin-right: 5px;
 }
 
-
-
-
-
+.projectImage{
+    filter: grayscale(100%);
+}
 
 
 

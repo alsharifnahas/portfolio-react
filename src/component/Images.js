@@ -13,7 +13,6 @@ export class Images extends Component {
             {
 
                 projectImage: recipeProject,
-                projectHtImage: recipeHT,
                 projectName: 'Recipe Web Application',
                 projectLink: "https://codesandbox.io/s/inspiring-bassi-4ws2h",
 
@@ -21,7 +20,6 @@ export class Images extends Component {
             {
 
                 projectImage: eplProject,
-                projectHtImage: eplHT,
                 projectName: 'EPL Soccer Application',
                 projectLink: "https://codesandbox.io/s/reverent-maxwell-hluqy",
 
@@ -29,7 +27,6 @@ export class Images extends Component {
             {
 
                 projectImage: hospitalProject,
-                projectHtImage: hospitalHT,
                 projectName: 'Hospital Management',
                 projectLink: "",
 
@@ -37,7 +34,6 @@ export class Images extends Component {
             {
 
                 projectImage: radwaProject,
-                projectHtImage: radwaHT,
                 projectName: 'Radwa Company Website',
                 projectLink: "http://radwachickens.com/test/",
 
@@ -53,16 +49,21 @@ export class Images extends Component {
                     <div className={styles.projectName}>
                         <i className="fa fa-angle-double-right"></i> {project.projectName}
                     </div>
-                    <img alt="project" className={styles.projectImage} src={project.projectHtImage}
+                    <img alt="project" className={styles.projectImage} src={project.projectImage}
                         onMouseOver={(e) => {
 
                             e.target.style.cursor = 'pointer';
-                            e.target.src = project.projectImage;
+                            e.target.style.filter = 'brightness(90%)';
+
+
+
+
                         }}
                         onMouseOut={(e) => {
                             e.target.style.opacity = '1';
                             e.target.style.cursor = 'default';
-                            e.target.src = project.projectHtImage;
+                            e.target.style.filter = 'grayscale(100%)'
+
                         }}
                         onClick={() => { window.open(project.projectLink) }}
                     />
