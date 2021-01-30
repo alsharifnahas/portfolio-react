@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
 import {
-    hospitalProject, radwaProject, recipeProject, eplProject,
-    hospitalHT, eplHT, radwaHT, recipeHT
+    recipeProject, eplProject, codeQuizProject,
+    wethearProject,
+    generatorProject,
+    plannerProject
 } from '../Images/index';
 import styles from '../Style/project.module.css';
 export class Images extends Component {
+
 
     render() {
 
@@ -14,30 +17,45 @@ export class Images extends Component {
 
                 projectImage: recipeProject,
                 projectName: 'Recipe Web Application',
-                projectLink: "https://codesandbox.io/s/inspiring-bassi-4ws2h",
+                projectLink: "https://alsharifnahas.github.io/recipesapp/.",
 
             },
             {
 
                 projectImage: eplProject,
                 projectName: 'EPL Soccer Application',
-                projectLink: "https://codesandbox.io/s/reverent-maxwell-hluqy",
+                projectLink: "https://alsharifnahas.github.io/EPL/.",
 
             },
             {
 
-                projectImage: hospitalProject,
-                projectName: 'Hospital Management',
-                projectLink: "",
+                projectImage: codeQuizProject,
+                projectName: 'Coding Quiz',
+                projectLink: "https://alsharifnahas.github.io/Code-Quiz/.",
 
             },
             {
 
-                projectImage: radwaProject,
-                projectName: 'Radwa Company Website',
-                projectLink: "http://radwachickens.com/test/",
+                projectImage: wethearProject,
+                projectName: '5-Day Weather Forecast',
+                projectLink: "https://alsharifnahas.github.io/Weather-Forecast/.",
 
-            }
+            },
+            {
+
+                projectImage: generatorProject,
+                projectName: 'Password Generator',
+                projectLink: "https://alsharifnahas.github.io/Password-Generator/.",
+
+            },
+            {
+
+                projectImage: plannerProject,
+                projectName: 'Daily Planner',
+                projectLink: "https://alsharifnahas.github.io/WorkDay-EventPlanner/.",
+
+            },
+
 
 
         ]
@@ -49,6 +67,7 @@ export class Images extends Component {
                     <div className={styles.projectName}>
                         <i className="fa fa-angle-double-right"></i> {project.projectName}
                     </div>
+
                     <img alt="project" className={styles.projectImage} src={project.projectImage}
                         onMouseOver={(e) => {
 
@@ -68,7 +87,9 @@ export class Images extends Component {
                         onClick={() => { window.open(project.projectLink) }}
                     />
 
+
                 </div>
+
             ))
 
         )

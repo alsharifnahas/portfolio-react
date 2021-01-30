@@ -1,11 +1,9 @@
-export const hospitalProject = require('./hospital-project.PNG');
-export const radwaProject = require('./radwa-project.PNG');
+
+export const codeQuizProject = require('./code-quiz.PNG');
+export const wethearProject = require('./weather-forecast.PNG');
+export const generatorProject = require('./password-generator.png');
+export const plannerProject = require('./work-day-planner.PNG');
 export const recipeProject = require('./recipe-project.PNG');
 export const eplProject = require('./epl-project.PNG');
 
-
-export const hospitalHT = require('./HalfTone/hospital-project.jpg');
-export const radwaHT = require('./HalfTone/radwa-project.jpg');
-export const recipeHT = require('./HalfTone/recipe-project.jpg');
-export const eplHT = require('./HalfTone/epl-project.jpg');
 

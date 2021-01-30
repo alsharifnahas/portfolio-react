@@ -3,7 +3,7 @@ import Images from './Images'
 import styles from '../Style/project.module.css'
 
 class Projects extends Component {
-
+    
     render() {
         return (
             <div className={styles.projectContainer} >

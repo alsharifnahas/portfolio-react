@@ -1,140 +1,109 @@
 /*Small screen*/
-@media  (max-width: 955px){
-    .projectContainer{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-     
-    }
-    .projectTitle{
-        margin-top: 20px;
-        margin-bottom: 20px;
-        text-align: center;
-        font-size: 10px;
-        font-family: 'Source Code Pro', monospace;
-    }
-    /*this is for image component*/
-    .projectContent{
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 30px;
-        width: 80%;
-        align-items: center;
-        box-sizing: border-box;
-        
-    }
-    .projectName{
-        font-family: 'Source Code Pro', monospace;
-        font-weight: bold;
-        margin-bottom: 15px;
-    
-    }
+@media (max-width: 955px) {
+  .projectContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .projectTitle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 10px;
+    font-family: "Source Code Pro", monospace;
+  }
+  /*this is for image component*/
+  .projectContent {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 80%;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .projectName {
+    font-family: "Source Code Pro", monospace;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
 
-    .projectImage{
-        border: 0.5px solid gray;
-        width: auto;
-        box-sizing: border-box;
-        padding: 1px;
-    }
-
-
-
-
-    
+  .projectImage {
+    border: 0.5px solid gray;
+    width: auto;
+    box-sizing: border-box;
+    padding: 1px;
+  }
 }
-
-
 
 /*bigger screen screen*/
-@media (min-width:956px){
-    .projectContainer{
-        width: 60%;
-        display: flex;
-        flex-direction: column;
-        overflow-x:scroll ;
-        align-items: center;
-    }
-    .projectTitle{
-        margin-bottom: 20px;
-        text-align: center;
-        font-size: 15px;
-        font-family: 'Source Code Pro', monospace;
-    }
-    /*this is for image component*/
-    .projectContent{
-        display: flex;
-        margin-bottom: 40px;
-        width: 100%;
-        box-sizing: border-box;
-        position: relative;
-        align-items: flex-start;
-        justify-content: center;
-        
-    }
-    .projectName{
-        position: absolute;
-        font-family: 'Source Code Pro', monospace;
-        z-index: 1;
-        transform: rotate(-90deg);
-        left:1%;
-        top: 17%;
-        box-sizing: border-box;
-        font-weight: bold;
-    }
+@media (min-width: 956px) {
+  .projectContainer {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+    align-items: center;
+  }
+  .projectTitle {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Source Code Pro", monospace;
+  }
+  /*this is for image component*/
+  .projectContent {
+    display: flex;
+    margin-bottom: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .projectName {
+    position: absolute;
+    font-family: "Source Code Pro", monospace;
+    z-index: 1;
+    transform: rotate(-270deg);
+    transform-origin: top left;
+    left: 10%;
+    top: 0%;
+    box-sizing: border-box;
+    font-weight: bold;
+  }
 
-    .projectImage{
-        box-sizing: border-box;
-        border: 0.5px solid gray;
-        width: auto;
-        padding: 1px;
-    }
-
-
-
-
+  .projectImage {
+    box-sizing: border-box;
+    border: 0.5px solid gray;
+    width: auto;
+    padding: 1px;
+    height: 50vh;
+  }
 }
-
-
-
-
-
-
 
 /*responsive for the fonts*/
-@media   (max-width:1250px){
-    .projectName{
-        font-size: 5.5px;
-    }
-    .projectImage{
-        width: 83%;
-     }
-
+@media (max-width: 1250px) {
+  .projectName {
+    font-size: 5.5px;
+  }
+  .projectImage {
+    width: 83%;
+  }
 }
-@media   (min-width: 1251px){
-    .projectName{
-        font-size: 8px;
-    }
-    .projectImage{
-        width: 80%;
-      }
-    
+@media (min-width: 1251px) {
+  .projectName {
+    font-size: 8px;
+  }
+  .projectImage {
+    width: 80%;
+  }
 }
 
-
-#icon{
-    margin-right: 5px;
+#icon {
+  margin-right: 5px;
 }
 
-.projectImage{
-    filter: grayscale(100%);
+.projectImage {
+  filter: grayscale(100%);
 }
-
-
-
-
-
-
-
-
-
