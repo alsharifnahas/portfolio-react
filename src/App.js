@@ -1,18 +1,33 @@
-import React, { Component } from 'react';
-import Sidenav from './component/Navbar';
-import Projects from './component/Projects';
+import React from 'react';
+import About from './pages/About';
+import Projects from './pages/Projects';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 import './Style/App.css';
+import SideNav from './component/SideNav/SideNav';
 
-class App extends Component {
-  render() {
 
-    return (
-      <div className="App" >
-        <Sidenav />
-        <Projects />
-      </div>
-    );
-  }
+const App = () => {
+
+
+  return (
+    <div className="App" >
+
+      <Router>
+        <SideNav />
+        <Switch>
+          <Route exact path="/" component={Projects} />
+          <Route path="/About" component={About} />
+        </Switch>
+      </Router>
+
+    </div>
+  );
+
 }
 
 export default App;
