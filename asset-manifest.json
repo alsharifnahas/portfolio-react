@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.0d2e5193.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.ca0c3a57.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.ca0c3a57.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.be285eaa.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.be285eaa.js.map",
+    "static/js/2.ea8108ff.chunk.js": "/portfolio-react/static/js/2.ea8108ff.chunk.js",
+    "static/js/2.ea8108ff.chunk.js.map": "/portfolio-react/static/js/2.ea8108ff.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "precache-manifest.a1b60e5da2dfa9461b4fffa3319ba717.js": "/portfolio-react/precache-manifest.a1b60e5da2dfa9461b4fffa3319ba717.js",
+    "service-worker.js": "/portfolio-react/service-worker.js",
+    "static/css/main.0d2e5193.chunk.css.map": "/portfolio-react/static/css/main.0d2e5193.chunk.css.map",
+    "static/js/2.ea8108ff.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.ea8108ff.chunk.js.LICENSE.txt",
+    "static/media/Alsharif-Eid-Nahas_Resume.pdf": "/portfolio-react/static/media/Alsharif-Eid-Nahas_Resume.2407ee08.pdf",
+    "static/media/code-quiz.PNG": "/portfolio-react/static/media/code-quiz.e3f23fb0.PNG",
+    "static/media/epl-project.PNG": "/portfolio-react/static/media/epl-project.eb3c1ec8.PNG",
+    "static/media/password-generator.png": "/portfolio-react/static/media/password-generator.0d55b663.png",
+    "static/media/recipe-project.PNG": "/portfolio-react/static/media/recipe-project.fadb5e22.PNG",
+    "static/media/weather-forecast.PNG": "/portfolio-react/static/media/weather-forecast.03aadd6c.PNG",
+    "static/media/work-day-planner.PNG": "/portfolio-react/static/media/work-day-planner.0727d00d.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be285eaa.js",
+    "static/js/2.ea8108ff.chunk.js",
+    "static/css/main.0d2e5193.chunk.css",
+    "static/js/main.ca0c3a57.chunk.js"
+  ]
+}
